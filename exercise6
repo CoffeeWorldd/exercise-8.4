@@ -1,0 +1,13 @@
+lst = list()
+while True:
+    fname = input("Enter a number: ")
+    if fname = 'done': break
+    try:
+        number = float(fname)
+    except:
+        print("Please enter a number.")
+        continue
+
+    lst.append(fname)
+print("Maximum", max(lst))
+print("Minimum", min(lst))
